@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">  
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css"> 
+        <script src="script.js" defer></script>
+    </head>
+     
+    <body> 
+        <div class="calculator">
+            <div class="screen"></div>
+            <div id="buttons">
+                
+
+                <div class="numbers">
+                    <div class="top">
+                        <button id="on">on</button>
+                        <div id = state>  ツ </div>
+                        <button id="clear">C</button>
+                    </div>
+                    <div class="line-one">
+                        <button id="seven">7</button>
+                        <button id="eight">8</button>
+                        <button id="nine">9</button>
+                    </div>
+                    <div class="line-two">
+                        <button id="four">4</button>
+                        <button id="five">5</button>
+                        <button id="six">6</button>
+                    </div>
+                    <div class="line-three">
+                        <button id = 'one'>1</button>
+                        <button id="two">2</button>
+                        <button id="three">3</button>
+                    </div>
+                    <div class="line-four">
+                        <button id="zero">0</button> 
+                        <button id="dot">.</button>
+                    </div>
+                    
+                </div>
+                
+                <div class="operators">
+                    <button id="plus">+</button>
+                    <button id="minus">-</button>
+                    <button id="multiply">x</button>
+                    <button id="divide">/</button>
+                    <!-- <button class="plus">+</button> -->
+                    <button id="equal">=</button>
+                </div>
+            </div>
+        </div>
+        
+        <audio data-key="1" src="sounds/click.wav"></audio>
+        <audio data-key="2" src="sounds/startt.mp3"></audio>
+        <audio data-key="3" src="sounds/errorr.mp3"></audio>
+
+    </body>
+</html>
